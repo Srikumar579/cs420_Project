@@ -1,0 +1,4 @@
+instructions:
+
+/usr/bin/mpif90 -o upheat.exe upheat.F90
+/usr/bin/mpirun -n 4 ./upheat.exe
